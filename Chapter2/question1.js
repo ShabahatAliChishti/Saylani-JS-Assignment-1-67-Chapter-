@@ -1,0 +1,4 @@
+function DeclareUsername()
+{
+var username;
+}

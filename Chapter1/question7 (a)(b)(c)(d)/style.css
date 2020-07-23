@@ -1,0 +1,246 @@
+#main {
+    background-color: #316DC3 ;
+}
+li,ul {
+    list-style: none;
+    display: inline-block;  
+    margin: 0;
+    
+}
+
+
+.my-bg-primary {
+    background:#0066B3;
+}
+.my-cl-primary {
+    color:#0066B3;
+}
+.my-bg-primary-pro {
+    background: #316DC3;
+    background: -webkit-linear-gradient(to left,#0066B3,#316DC3); 
+    background: linear-gradient(to left,#0066B3, #316DC3); 
+}
+.my-bg-secondary {
+    background-color:#316DC3
+}
+.my-cl-secondary {
+    color:#316DC3;
+}
+.white-text {
+    color:#fff;
+}
+.center-text {
+    align-content: center;
+    
+}
+.header-top {
+    padding: 5px 0;
+}
+.widget {
+   margin: auto;
+}
+.icon {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+    /* background-color:red; */
+}
+.btn-xs {
+    padding: 4px 8px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+.header-button{
+    margin: 0 4px !important;
+}
+ .my-active > a {
+    background-color: #316DC3;
+    color: #fff !important;
+    padding:6px 12px 8px !important;
+    font-size: 13px;
+    border-radius: 30px;
+    font-weight:700;
+}
+.my-nav > li > a {
+    display: inline-block;
+    padding:6px 12px 8px !important;
+    font-size: 13px;
+    border-radius: 30px;
+    font-weight:700;
+}
+.my-nav >li> a:hover {
+    background-color: #316DC3;
+    color: #fff !important;
+}
+
+.carousel-item>img {
+    min-height: 600px;
+}
+
+
+.headline {
+    height: 48px;
+    vertical-align: middle;
+    padding: 12px 0;
+}
+
+
+.intro {
+    background: #316DC3;
+    background: -webkit-linear-gradient(to left,#0066B3,#316DC3); 
+    background: linear-gradient(to left,#0066B3, #316DC3); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-align: center; */
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+}
+#about> div, #service > div, #mission > div #gallery > div {
+    padding: 60px 15px;
+}
+
+/* headlines with lines */
+.title-icon{
+    overflow: hidden;
+    text-align: center;
+    margin: 10px auto 20px;
+}
+.title-icon > span{
+   position: relative;
+   display: inline-block;
+}
+.title-icon > span:before, .title-icon > span:after{
+   content: '';
+   position: absolute;
+   top: 80%;
+   border-bottom: 3px solid;
+   width: 50px; /* half of limiter*/
+   margin: 0 20px;
+   color: #316DC3;
+}
+.title-icon > span:before{
+   right: 100%;
+}
+.title-icon > span:after{
+   left: 95%;
+}
+
+
+.stats>div>div{
+    margin: 30px auto;
+ padding: 60px 15px;
+ font-family: 'Merriweather', serif;
+}
+.stats img {
+    margin-bottom: 12px;
+}
+.service-section {
+    margin-top: 30px;
+}
+.service-section div div {
+    padding: 30px;
+    margin-bottom: 30px;
+    margin: 30px auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 8px 20px 0px;
+    color: #316DC3;
+    font-family: 'Merriweather', serif;
+    /* min-width: 290px; */
+}
+.service-section div div h4 {
+    margin: 20px auto 10px;
+}
+#mission {
+    padding: 50px 2%;
+}
+.mission span {
+    padding-bottom: 10px;
+
+}
+.mission > span:after{
+    content: ' ';
+    display: inline-block;
+    border: 2px solid  #316DC3;
+    width: 100px; /* half of limiter*/
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    -webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    -moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    margin-bottom: 30px !important;
+
+}
+.mission>div>div {
+    margin-bottom: 20px;
+}
+.mission-box{
+    padding: 15px;
+    vertical-align: middle;
+}
+.mission-box img{
+    margin-right: 30px;
+}
+.media-body {
+    display: inline-block;
+    margin: 4px 0;
+    padding-top: 4px;
+    font-family:'Merriweather', serif;
+    font-weight: bolder;
+
+}
+.mission marquee{
+    color:#316DC3;
+}
+
+.gallery {
+    padding: 60px 0;
+}
+.image-gallery{
+    margin-top: 30px;
+}
+.image-gallery img {
+    margin-bottom: 30px;
+}
+#footer .container {
+    padding: 60px 30px;
+}
+#footer div div{
+    margin-bottom: 30px;
+    min-width: 260px;
+}
+#footer img {
+    margin-bottom: 60px;
+}
+.icon-list a{
+    background-color: #316DC3;
+    padding-top: 2px;
+    border-radius: 50%;
+}  
+.copy{
+    padding: 20px 40px 8px;
+    font-weight: bold;
+    
+}
+.top {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #00000055;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    padding-top: 10px;
+    clear: both;
+}
+
+@media screen and (max-width: 992px) {
+    .widget, #header div {
+        text-align: center;
+        width: 100%;
+    }
+
+}
